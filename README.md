@@ -3,7 +3,7 @@
 Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms. The following queries are answered:
 
 1. Top 5 nodes with highest outdegree and count of outgoing edges: 
-
+```
 +---------------+---------+
 |id             |outDegree|
 +---------------+---------+
@@ -13,9 +13,9 @@ Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms
 |outoftheloop   |1958     |
 |copypasta      |1824     |
 +---------------+---------+
-
+```
 2. Top 5 nodes with the highest indegree and count of incoming edges:
-
+```
 +--------------+--------+
 |id            |inDegree|
 +--------------+--------+
@@ -25,9 +25,9 @@ Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms
 |writingprompts|2490    |
 |videos        |2446    |
 +--------------+--------+
-
+```
 3. PageRank for each of the nodes and output the top 5 nodes with the highest PageRank values:
-
+```
 +-----------------+------------------+
 |               id|          pagerank|
 +-----------------+------------------+
@@ -37,9 +37,9 @@ Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms
 |videos_discussion|329.51376047756264|
 |             pics|249.84530454363428|
 +-----------------+------------------+
-
+```
 4. Run the connected components algorithm on it and find the top 5 components with the largest number of nodes.
-
+```
 +------------+-----+
 |   component|count|
 +------------+-----+
@@ -49,9 +49,9 @@ Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms
 |171798691843|    5|
 |695784702079|    4|
 +------------+-----+
-
+```
 5. Run the triangle counts algorithm on each of the vertices and output the top 5 vertices with the largest triangle count: 
-
+```
 +-----+--------------+
 |count|            id|
 +-----+--------------+
@@ -61,4 +61,4 @@ Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms
 |14624|  outoftheloop|
 |11924|        videos|
 +-----+--------------+
-
+```
