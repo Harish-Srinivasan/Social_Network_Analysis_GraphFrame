@@ -1,5 +1,7 @@
 # Social_Network_Analysis_GraphFrame
 
+Dataset link: https://snap.stanford.edu/data/soc-RedditHyperlinks.html
+
 Reddit dataset is analysed using PySpark GraphFrame using queries and algorithms. The following queries are answered:
 
 1. Top 5 nodes with highest outdegree and count of outgoing edges: 
